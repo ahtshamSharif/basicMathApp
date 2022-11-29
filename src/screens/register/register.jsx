@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import { useState, useEffect } from "react";
 import { BButton } from "../../components/bbutton";
 import { TButton } from "../../components/tbutton";
+import { firebase } from "../../services/firebaseConfig";
 
 function Register({ navigation }) {
   const goToLogin = () => {
